@@ -1,0 +1,48 @@
+.widget {
+	margin: 0 0 1.5em;
+	
+	h2, h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+  }
+
+	.ui-slider-range {
+		background-color: #B6C6C9 !important;
+	}
+
+	.ui-slider-handle {
+		background-color: $purple !important;
+	}
+
+	.price_label {
+		color: #B6C6C9;
+	}
+
+	.wc-layered-nav-term {
+		text-align: left;
+		color: #B6C6C9;
+		border-bottom: 1px solid #B6C6C9;
+		padding: 5px 0 5px !important;
+		a {
+			color: #B6C6C9;
+			&:hover {
+				color: $purple;
+			}
+		}
+	}
+
+	button.button {
+		background: $purple;
+		color: #fff;
+		border-radius: 0;
+		transition: .5s;
+	}
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+}

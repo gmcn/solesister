@@ -1,0 +1,112 @@
+.home {
+  &-products {
+    text-align: center;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    @include md {
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+    h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 40px;
+      text-align: left;
+    }
+    &__product {
+      @include lg {
+        width: 20% !important;
+      }
+      text-align: left;
+      font-weight: 600;
+      margin-bottom: 15px;
+      h2 {
+       text-transform: uppercase;
+       font-weight: 600;
+       font-size: 20px;
+       margin-top: 15px;
+       text-align: left;
+     }
+     a.added_to_cart {
+       font-size: 12px;
+     }
+      a.add_to_cart_button {
+        font-size: 12px;
+        color: #fff;
+        background-color: $purple;
+        display: inline;
+        font-weight: 300;
+        padding: 6px 6px 2px 6px;
+        border-radius: 0;
+        &:hover {
+          background: #000;
+          color: #fff;
+        }
+      }
+      ins {
+        &__price, .amount {
+          color: #fff;
+          background-color: $purple;
+          padding: 0 5px;
+        }
+      }
+      &__price, .amount {
+        color: $purple;
+      }
+      a {
+        color: #000;
+        &:hover {
+          color: $purple;
+        }
+      }
+    }
+    img {
+      // max-width: 100%;
+      width: 100%;
+      margin-bottom: 10px;
+      @include md {
+        display: block;
+      }
+    }
+  }
+
+  .klarna {
+    background: url('images/klarna_bg.jpg') center center;
+    background-size: cover;
+    padding-top: 50px;
+    @include md {
+      padding-top: 100px;
+    }
+    padding-bottom: 15px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    p.klarna_intro {
+      margin-bottom: 50px;
+    }
+    img {
+      max-width: 100%;
+    }
+    a {
+      background: #000;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      @include md {
+        margin-bottom: 100px;
+      }
+      color: #fff;
+      padding: 10px 25px;
+      text-transform: uppercase;
+      display: inline-block;
+      &:hover {
+        background: $purple
+      }
+    }
+  }
+
+}

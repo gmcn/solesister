@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.618" height="21.43" viewBox="0 0 44.618 21.43">
+  <g id="_001-delivery-truck" data-name="001-delivery-truck" transform="translate(0 -133.043)">
+    <g id="Group_125" data-name="Group 125" transform="translate(4.688 133.043)">
+      <g id="Group_124" data-name="Group 124">
+        <path id="Path_193" data-name="Path 193" d="M93.329,143.792l-5.174-5.909a.889.889,0,0,0-.668-.3H83.179v-3.649a.889.889,0,0,0-.888-.889H63.941a.889.889,0,0,0-.888.889v1.2H54.507a.889.889,0,0,0,0,1.778h8.545V148.43H57.909a.889.889,0,0,0,0,1.778h5.144v.9a.889.889,0,0,0,.888.889H65.8a3.36,3.36,0,0,0,6.482,0H84.132a3.36,3.36,0,0,0,6.482,0h2.047a.889.889,0,0,0,.888-.889v-6.733A.89.89,0,0,0,93.329,143.792Zm-24.293,8.9a1.585,1.585,0,1,1,1.584-1.585A1.586,1.586,0,0,1,69.036,152.7Zm3.241-2.473a3.36,3.36,0,0,0-6.482,0h-.966v-15.4H81.4v15.4Zm15.1,2.473a1.585,1.585,0,1,1,1.584-1.585A1.586,1.586,0,0,1,87.372,152.7Zm4.4-2.473H90.613a3.36,3.36,0,0,0-6.482,0h-.953V139.358h3.905l4.688,5.354v5.51Z" transform="translate(-53.619 -133.043)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_127" data-name="Group 127" transform="translate(4.688 148.425)">
+      <g id="Group_126" data-name="Group 126">
+        <path id="Path_194" data-name="Path 194" d="M54.987,309.611h-.476a.892.892,0,1,0,0,1.783h.476a.892.892,0,1,0,0-1.783Z" transform="translate(-53.62 -309.611)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_129" data-name="Group 129" transform="translate(0 141.688)">
+      <g id="Group_128" data-name="Group 128">
+        <path id="Path_195" data-name="Path 195" d="M10.448,232.276H.892a.892.892,0,0,0,0,1.783h9.556a.892.892,0,0,0,0-1.783Z" transform="translate(0 -232.276)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
